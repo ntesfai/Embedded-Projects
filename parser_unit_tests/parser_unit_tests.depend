@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1525137365 source:/home/nubian/parser_unit_tests/parser_unit_tests/fuse.c
+	<avr/io.h>
+
+1525145040 source:/home/nubian/parser_unit_tests/parser_unit_tests/main.c
+	"config.h"
+	"delay.h"
+	"dhcp.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"spi.h"
+	"uart.h"
+	"vpd.h"
+	"temp.h"
+	"socket.h"
+	"alarm.h"
+	"wdt.h"
+	"tempfsm.h"
+	"eeprom.h"
+	"ntp.h"
+	"w51.h"
+
+1524754301 /home/nubian/parser_unit_tests/parser_unit_tests/config.h
+
+1524754306 /home/nubian/parser_unit_tests/parser_unit_tests/delay.h
+
+1524754356 /home/nubian/parser_unit_tests/parser_unit_tests/dhcp.h
+
+1524754365 /home/nubian/parser_unit_tests/parser_unit_tests/led.h
+
+1524754369 /home/nubian/parser_unit_tests/parser_unit_tests/log.h
+
+1524754383 /home/nubian/parser_unit_tests/parser_unit_tests/rtc.h
+
+1524754392 /home/nubian/parser_unit_tests/parser_unit_tests/spi.h
+
+1524754408 /home/nubian/parser_unit_tests/parser_unit_tests/uart.h
+
+1524754418 /home/nubian/parser_unit_tests/parser_unit_tests/vpd.h
+
+1524754396 /home/nubian/parser_unit_tests/parser_unit_tests/temp.h
+
+1524754387 /home/nubian/parser_unit_tests/parser_unit_tests/socket.h
+
+1524754296 /home/nubian/parser_unit_tests/parser_unit_tests/alarm.h
+
+1524754427 /home/nubian/parser_unit_tests/parser_unit_tests/wdt.h
+
+1524754399 /home/nubian/parser_unit_tests/parser_unit_tests/tempfsm.h
+
+1524754360 /home/nubian/parser_unit_tests/parser_unit_tests/eeprom.h
+
+1524754378 /home/nubian/parser_unit_tests/parser_unit_tests/ntp.h
+
+1524754423 /home/nubian/parser_unit_tests/parser_unit_tests/w51.h
+
+1525137365 source:/home/nubian/parser_unit_tests/fuse.c
+	<avr/io.h>
+
+1525380727 source:/home/nubian/parser_unit_tests/main.c
+	"config.h"
+	"delay.h"
+	"dhcp.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"spi.h"
+	"uart.h"
+	"vpd.h"
+	"temp.h"
+	"socket.h"
+	"alarm.h"
+	"wdt.h"
+	"tempfsm.h"
+	"eeprom.h"
+	"ntp.h"
+	"w51.h"
+
+1524754301 /home/nubian/parser_unit_tests/config.h
+
+1524754306 /home/nubian/parser_unit_tests/delay.h
+
+1524754356 /home/nubian/parser_unit_tests/dhcp.h
+
+1524754365 /home/nubian/parser_unit_tests/led.h
+
+1524754369 /home/nubian/parser_unit_tests/log.h
+
+1524754383 /home/nubian/parser_unit_tests/rtc.h
+
+1524754392 /home/nubian/parser_unit_tests/spi.h
+
+1524754408 /home/nubian/parser_unit_tests/uart.h
+
+1524754418 /home/nubian/parser_unit_tests/vpd.h
+
+1524754396 /home/nubian/parser_unit_tests/temp.h
+
+1524754387 /home/nubian/parser_unit_tests/socket.h
+
+1524754296 /home/nubian/parser_unit_tests/alarm.h
+
+1524754427 /home/nubian/parser_unit_tests/wdt.h
+
+1524754399 /home/nubian/parser_unit_tests/tempfsm.h
+
+1524754360 /home/nubian/parser_unit_tests/eeprom.h
+
+1524754378 /home/nubian/parser_unit_tests/ntp.h
+
+1524754423 /home/nubian/parser_unit_tests/w51.h
+

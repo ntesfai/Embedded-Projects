@@ -1,0 +1,1617 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/nubian/final_project/lib_proj4.a(alarm.o)
+                              obj/Release/main.o (alarm_send)
+/home/nubian/final_project/lib_proj4.a(config.o)
+                              obj/Release/parser.o (config_set_modified)
+/home/nubian/final_project/lib_proj4.a(delay.o)
+                              obj/Release/main.o (delay_isdone)
+/home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                              obj/Release/main.o (dhcp_getLocalIp)
+/home/nubian/final_project/lib_proj4.a(eeprom.o)
+                              /home/nubian/final_project/lib_proj4.a(config.o) (eeprom_writebuf)
+/home/nubian/final_project/lib_proj4.a(led.o)
+                              obj/Release/main.o (led_init)
+/home/nubian/final_project/lib_proj4.a(log.o)
+                              obj/Release/main.o (log_init)
+/home/nubian/final_project/lib_proj4.a(ntp.o)
+                              obj/Release/main.o (ntp_sync_network_time)
+/home/nubian/final_project/lib_proj4.a(rtc.o)
+                              obj/Release/main.o (rtc_init)
+/home/nubian/final_project/lib_proj4.a(socket.o)
+                              /home/nubian/final_project/lib_proj4.a(alarm.o) (udpsocket_open_multicast)
+/home/nubian/final_project/lib_proj4.a(spi.o)
+                              obj/Release/main.o (spi_init)
+/home/nubian/final_project/lib_proj4.a(str.o)
+                              /home/nubian/final_project/lib_proj4.a(Dhcp.o) (mem_cpy)
+/home/nubian/final_project/lib_proj4.a(temp.o)
+                              obj/Release/main.o (temp_init)
+/home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                              obj/Release/main.o (tempfsm_init)
+/home/nubian/final_project/lib_proj4.a(timer1.o)
+                              /home/nubian/final_project/lib_proj4.a(rtc.o) (timer1_init)
+/home/nubian/final_project/lib_proj4.a(uart.o)
+                              obj/Release/main.o (uart_init)
+/home/nubian/final_project/lib_proj4.a(util.o)
+                              /home/nubian/final_project/lib_proj4.a(config.o) (update_checksum)
+/home/nubian/final_project/lib_proj4.a(vpd.o)
+                              obj/Release/main.o (vpd)
+/home/nubian/final_project/lib_proj4.a(w5100.o)
+                              obj/Release/main.o (W51_init)
+/home/nubian/final_project/lib_proj4.a(wdt.o)
+                              obj/Release/main.o (wdt_init)
+/home/nubian/final_project/lib_proj4.a(serial.o)
+                              /home/nubian/final_project/lib_proj4.a(uart.o) (serial_init)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+                              /home/nubian/final_project/lib_proj4.a(rtc.o) (__mulsi3)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+                              /home/nubian/final_project/lib_proj4.a(rtc.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+                              /home/nubian/final_project/lib_proj4.a(log.o) (__divmodhi4)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                              /home/nubian/final_project/lib_proj4.a(Dhcp.o) (__udivmodsi4)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+                              /home/nubian/final_project/lib_proj4.a(socket.o) (__divmodsi4)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                              /home/nubian/final_project/lib_proj4.a(tempfsm.o) (__tablejump2__)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                              obj/Release/main.o (__do_copy_data)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                              obj/Release/parser.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+                              /home/nubian/final_project/lib_proj4.a(Dhcp.o) (__bswapsi2)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+                              /home/nubian/final_project/lib_proj4.a(rtc.o) (__umulhisi3)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                              /home/nubian/final_project/lib_proj4.a(rtc.o) (__muluhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+rxbuf               0x40              /home/nubian/final_project/lib_proj4.a(serial.o)
+write_busy          0x1               /home/nubian/final_project/lib_proj4.a(eeprom.o)
+vpd                 0x37              /home/nubian/final_project/lib_proj4.a(vpd.o)
+writeaddr           0x2               /home/nubian/final_project/lib_proj4.a(eeprom.o)
+rtc_base            0x4               /home/nubian/final_project/lib_proj4.a(rtc.o)
+writesize           0x1               /home/nubian/final_project/lib_proj4.a(eeprom.o)
+writebuf            0x40              /home/nubian/final_project/lib_proj4.a(eeprom.o)
+txbuf               0x40              /home/nubian/final_project/lib_proj4.a(serial.o)
+bufidx              0x1               /home/nubian/final_project/lib_proj4.a(eeprom.o)
+config              0x12              /home/nubian/final_project/lib_proj4.a(config.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+LOAD obj/Release/fuse.o
+LOAD obj/Release/main.o
+LOAD obj/Release/parser.o
+LOAD /home/nubian/final_project/lib_proj4.a
+LOAD /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x50c4
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x0000000000000068       0x12 /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                0x000000000000007a                . = ALIGN (0x2)
+                0x000000000000007a                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000007a        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000007a                __trampolines_end = .
+ *(.progmem*)
+                0x000000000000007a                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000007a                __ctors_start = .
+ *(.ctors)
+                0x000000000000007a                __ctors_end = .
+                0x000000000000007a                __dtors_start = .
+ *(.dtors)
+                0x000000000000007a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000007a        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x000000000000007a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000007a        0xc /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000086       0x16 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000086                __do_copy_data
+ .init4         0x000000000000009c       0x10 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000009c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000ac        0x8 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000b4        0x4 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000b4                __vector_1
+                0x00000000000000b4                __vector_24
+                0x00000000000000b4                __vector_12
+                0x00000000000000b4                __bad_interrupt
+                0x00000000000000b4                __vector_3
+                0x00000000000000b4                __vector_23
+                0x00000000000000b4                __vector_25
+                0x00000000000000b4                __vector_13
+                0x00000000000000b4                __vector_17
+                0x00000000000000b4                __vector_7
+                0x00000000000000b4                __vector_5
+                0x00000000000000b4                __vector_4
+                0x00000000000000b4                __vector_9
+                0x00000000000000b4                __vector_2
+                0x00000000000000b4                __vector_21
+                0x00000000000000b4                __vector_15
+                0x00000000000000b4                __vector_8
+                0x00000000000000b4                __vector_10
+                0x00000000000000b4                __vector_16
+                0x00000000000000b4                __vector_20
+ .text          0x00000000000000b8        0x0 obj/Release/fuse.o
+ .text          0x00000000000000b8        0x0 obj/Release/main.o
+ .text          0x00000000000000b8      0xada obj/Release/parser.o
+                0x00000000000000b8                parser_parse
+                0x0000000000000178                parser_print_nbsp
+                0x0000000000000198                parser_print_OK
+                0x00000000000001a2                parser_html_header
+                0x00000000000001ac                parser_vpd
+                0x00000000000002c4                parser_config
+                0x0000000000000382                parser_temp
+                0x000000000000044a                parser_log
+                0x000000000000052c                parser_state
+                0x0000000000000550                parser_state_PUT
+                0x0000000000000574                parser_vpd_manufacturer
+                0x00000000000005a8                parser_vpd_model
+                0x00000000000005dc                parser_vpd_serial
+                0x0000000000000610                parser_vpd_manufacture_date
+                0x0000000000000656                parser_vpd_mac
+                0x000000000000068a                parser_vpd_cc
+                0x00000000000006be                parser_config_tcrit_hi
+                0x00000000000006f6                parser_config_twarn_lo
+                0x000000000000072e                parser_config_twarn_hi
+                0x0000000000000766                parser_config_tcrit_lo
+                0x000000000000079e                parser_temp_val
+                0x00000000000007d4                parser_temp_state
+                0x0000000000000870                parser_response
+ .text          0x0000000000000b92      0x180 /home/nubian/final_project/lib_proj4.a(alarm.o)
+                0x0000000000000b92                alarm_init
+                0x0000000000000b94                alarm_send
+ .text          0x0000000000000d12       0xee /home/nubian/final_project/lib_proj4.a(config.o)
+                0x0000000000000d12                config_set_modified
+                0x0000000000000d1a                config_is_data_valid
+                0x0000000000000d58                config_write_defaults
+                0x0000000000000d72                config_init
+                0x0000000000000da8                config_update
+                0x0000000000000dd8                config_update_noisr
+ .text          0x0000000000000e00      0x19e /home/nubian/final_project/lib_proj4.a(delay.o)
+                0x0000000000000e00                __vector_14
+                0x0000000000000ea2                delay_init
+                0x0000000000000ec6                delay_get
+                0x0000000000000ee6                delay_isdone
+                0x0000000000000f18                delay_set
+                0x0000000000000f6c                millis
+ .text          0x0000000000000f9e      0xbea /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                0x0000000000000f9e                dhcp_getLocalIp
+                0x0000000000000fa4                dhcp_getSubnetMask
+                0x0000000000000faa                dhcp_getGatewayIp
+                0x0000000000000fb0                dhcp_getDhcpServerIp
+                0x0000000000000fb6                dhcp_getDnsServerIp
+                0x0000000000000fbc                _ZN9DhcpClass16reset_DHCP_leaseEv
+                0x0000000000000fc8                _ZN9DhcpClass12presend_DHCPEv
+                0x0000000000000fca                _ZN9DhcpClass17parseDHCPResponseEmRm
+                0x00000000000013f8                _ZN9DhcpClass10getLocalIpEv
+                0x00000000000013fc                _ZN9DhcpClass13getSubnetMaskEv
+                0x0000000000001400                _ZN9DhcpClass12getGatewayIpEv
+                0x0000000000001404                _ZN9DhcpClass15getDhcpServerIpEv
+                0x0000000000001408                _ZN9DhcpClass14getDnsServerIpEv
+                0x000000000000140c                _ZN9DhcpClass9printByteEPch
+                0x0000000000001436                _ZN9DhcpClass17send_DHCP_MESSAGEEhj
+                0x00000000000016a4                _ZN9DhcpClass18request_DHCP_leaseEv
+                0x00000000000019a4                _ZN9DhcpClass13beginWithDHCPEPhmm
+                0x0000000000001a22                dhcp_start
+                0x0000000000001a46                _ZN9DhcpClass10checkLeaseEv
+                0x0000000000001b80                dhcp_checkLease
+ .text          0x0000000000001b88      0x106 /home/nubian/final_project/lib_proj4.a(eeprom.o)
+                0x0000000000001b88                __vector_22
+                0x0000000000001bf4                eeprom_writebuf
+                0x0000000000001c2e                eeprom_writebuf_noisr
+                0x0000000000001c5c                eeprom_readbuf
+                0x0000000000001c86                eeprom_isbusy
+ .text          0x0000000000001c8e       0xfc /home/nubian/final_project/lib_proj4.a(led.o)
+                0x0000000000001c8e                led_init
+                0x0000000000001ca0                led_on
+                0x0000000000001ca4                led_off
+                0x0000000000001ca8                led_set_blink
+                0x0000000000001ccc                led_update
+                0x0000000000001d80                led_is_on
+ .text          0x0000000000001d8a      0x446 /home/nubian/final_project/lib_proj4.a(log.o)
+                0x0000000000001d8a                log_is_data_valid
+                0x0000000000001dd6                log_init
+                0x0000000000001f6c                log_update
+                0x0000000000001fd6                log_update_noisr
+                0x0000000000002038                log_add_record
+                0x00000000000020dc                log_clear
+                0x0000000000002116                log_get_num_entries
+                0x0000000000002148                log_get_record
+ .text          0x00000000000021d0      0x1c2 /home/nubian/final_project/lib_proj4.a(ntp.o)
+                0x00000000000021d0                ntp_sync_network_time
+ .text          0x0000000000002392      0x5de /home/nubian/final_project/lib_proj4.a(rtc.o)
+                0x0000000000002392                rtc_init
+                0x0000000000002396                rtc_get_date
+                0x000000000000239a                rtc_set_date
+                0x00000000000023ae                is_leapyear
+                0x00000000000023e2                rtc_set_by_datestr
+                0x00000000000026a8                get_month
+                0x0000000000002738                rtc_num2datestr
+                0x0000000000002948                rtc_get_date_string
+ .text          0x0000000000002970      0xbc6 /home/nubian/final_project/lib_proj4.a(socket.o)
+                0x0000000000002970                udpsocket_open_multicast
+                0x00000000000029f6                udpsocket_is_open
+                0x0000000000002a06                udpsocket_is_closed
+                0x0000000000002a14                socket_is_active
+                0x0000000000002a30                socket_is_listening
+                0x0000000000002a40                socket_is_established
+                0x0000000000002a50                socket_is_closed
+                0x0000000000002a5e                socket_close
+                0x0000000000002ad0                udpsocket_open
+                0x0000000000002ad8                socket_open
+                0x0000000000002ae0                udpsocket_close
+                0x0000000000002ae4                socket_listen
+                0x0000000000002b02                socket_connect
+                0x0000000000002b6a                socket_disconnect
+                0x0000000000002b70                socket_send
+                0x0000000000002c0a                socket_recv
+                0x0000000000002c8e                socket_recv_available
+                0x0000000000002c92                udpsocket_recv_available
+                0x0000000000002c96                socket_peek
+                0x0000000000002ca6                udpsocket_sendto
+                0x0000000000002d4a                udpsocket_recv_data
+                0x0000000000002d96                udpsocket_recvfrom
+                0x0000000000002ee8                socket_igmpsend
+                0x0000000000002f46                udpsocket_add_to_datagram
+                0x0000000000002f8c                socket_writestr
+                0x0000000000002fba                socket_writechar
+                0x0000000000002fdc                socket_writequotedstring
+                0x0000000000003002                socket_writedate
+                0x000000000000301c                socket_writehex8
+                0x0000000000003058                socket_write_macaddress
+                0x00000000000030aa                socket_writehex16
+                0x00000000000030c4                socket_writedec32
+                0x00000000000031ee                udpsocket_start_datagram
+                0x0000000000003238                udpsocket_send_datagram
+                0x0000000000003274                socket_received_line
+                0x00000000000032d0                socket_is_blank_line
+                0x0000000000003314                socket_recv_compare
+                0x00000000000033c0                socket_flush_line
+                0x0000000000003452                socket_recv_int
+ .text          0x0000000000003536       0x5a /home/nubian/final_project/lib_proj4.a(spi.o)
+                0x0000000000003536                spi_init
+                0x0000000000003558                spi_is_locked
+                0x000000000000355e                spi_begin_transfer
+                0x000000000000357a                spi_transfer
+                0x0000000000003588                spi_end_transfer
+ .text          0x0000000000003590      0x154 /home/nubian/final_project/lib_proj4.a(str.o)
+                0x0000000000003590                mem_cpy
+                0x00000000000035a8                mem_set
+                0x00000000000035bc                mem_cmp
+                0x00000000000035ea                str_cpy
+                0x00000000000035fe                str_len
+                0x0000000000003610                str_writeudec16
+ .text          0x00000000000036e4       0x6e /home/nubian/final_project/lib_proj4.a(temp.o)
+                0x00000000000036e4                temp_init
+                0x00000000000036f2                temp_is_data_ready
+                0x0000000000003708                temp_start
+                0x0000000000003714                temp_get
+ .text          0x0000000000003752      0x170 /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                0x0000000000003752                tempfsm_init
+                0x0000000000003754                tempfsm_update
+                0x00000000000038b8                tempfsm_reset
+ .text          0x00000000000038c2       0x9a /home/nubian/final_project/lib_proj4.a(timer1.o)
+                0x00000000000038c2                __vector_11
+                0x000000000000390c                timer1_init
+                0x000000000000392c                timer1_get
+                0x0000000000003944                timer1_clear
+ .text          0x000000000000395c      0x242 /home/nubian/final_project/lib_proj4.a(uart.o)
+                0x000000000000395c                uart_init
+                0x0000000000003964                uart_writechar
+                0x0000000000003968                uart_writestr
+                0x0000000000003980                uart_writehex8
+                0x00000000000039b2                uart_writehex16
+                0x00000000000039c4                uart_writedec32
+                0x0000000000003af2                uart_is_connected
+                0x0000000000003af6                uart_is_packet_available
+                0x0000000000003afa                uart_readpacket
+                0x0000000000003b5a                uart_writeip
+ .text          0x0000000000003b9e      0x214 /home/nubian/final_project/lib_proj4.a(util.o)
+                0x0000000000003b9e                str_cmp
+                0x0000000000003bd4                update_checksum
+                0x0000000000003bfc                random_seed
+                0x0000000000003c32                random
+                0x0000000000003d34                strtoi
+ .text          0x0000000000003db2       0xc4 /home/nubian/final_project/lib_proj4.a(vpd.o)
+                0x0000000000003db2                vpd_is_data_valid
+                0x0000000000003df0                vpd_write_defaults
+                0x0000000000003e44                vpd_init
+ .text          0x0000000000003e76      0xaf4 /home/nubian/final_project/lib_proj4.a(w5100.o)
+                0x0000000000003e76                W51_write
+                0x0000000000003ec0                W51_init
+                0x0000000000003efc                W51_config
+                0x0000000000004098                W51_writebuf
+                0x00000000000040fa                W51_read
+                0x000000000000413e                W51_readbuf
+                0x00000000000041a2                W51_readSn
+                0x00000000000041b2                W51_writeSn
+                0x00000000000041c8                W51_readbufSn
+                0x00000000000041de                W51_writebufSn
+                0x00000000000041f4                W51_read_data
+                0x000000000000427a                W51_writeMR
+                0x0000000000004284                W51_readMR
+                0x000000000000428c                W51_writebufGAR
+                0x000000000000429a                W51_readbufGAR
+                0x00000000000042a8                W51_writebufSUBR
+                0x00000000000042b6                W51_readbufSUBR
+                0x00000000000042c4                W51_writebufSHAR
+                0x00000000000042d2                W51_readbufSHAR
+                0x00000000000042e0                W51_writebufSIPR
+                0x00000000000042ee                W51_readbufSIPR
+                0x00000000000042fc                W51_writeIR
+                0x0000000000004306                W51_readIR
+                0x000000000000430e                W51_writeIMR
+                0x0000000000004318                W51_readIMR
+                0x0000000000004320                W51_writeRTR
+                0x000000000000433a                W51_readRTR
+                0x0000000000004364                W51_writeRCR
+                0x000000000000436e                W51_readRCR
+                0x0000000000004376                W51_writeRMSR
+                0x0000000000004380                W51_readRMSR
+                0x0000000000004388                W51_writeTMSR
+                0x0000000000004392                W51_readTMSR
+                0x000000000000439a                W51_writePATR
+                0x00000000000043a4                W51_readPATR
+                0x00000000000043ac                W51_writePTIMER
+                0x00000000000043b6                W51_readPTIMER
+                0x00000000000043be                W51_writePMAGIC
+                0x00000000000043c8                W51_readPMAGIC
+                0x00000000000043d0                W51_writebufUIPR
+                0x00000000000043de                W51_readbufUIPR
+                0x00000000000043ec                W51_writeUPORT
+                0x0000000000004406                W51_readUPORT
+                0x0000000000004430                W51_writeSnMR
+                0x000000000000443a                W51_readSnMR
+                0x0000000000004442                W51_writeSnCR
+                0x000000000000444c                W51_readSnCR
+                0x0000000000004454                W51_execCmdSn
+                0x000000000000446a                W51_writeSnIR
+                0x0000000000004474                W51_readSnIR
+                0x000000000000447c                W51_writeSnSR
+                0x0000000000004486                W51_readSnSR
+                0x000000000000448e                W51_writeSnPORT
+                0x00000000000044b0                W51_readSnPORT
+                0x00000000000044e0                W51_writeSnDHAR
+                0x00000000000044ee                W51_readSnDHAR
+                0x00000000000044fc                W51_writeSnDIPR
+                0x000000000000450a                W51_readSnDIPR
+                0x0000000000004518                W51_writeSnDPORT
+                0x000000000000453a                W51_readSnDPORT
+                0x000000000000456a                W51_writeSnMSSR
+                0x000000000000458c                W51_readSnMSSR
+                0x00000000000045bc                W51_writeSnPROTO
+                0x00000000000045c6                W51_readSnPROTO
+                0x00000000000045ce                W51_writeSnTOS
+                0x00000000000045d8                W51_readSnTOS
+                0x00000000000045e0                W51_writeSnTTL
+                0x00000000000045ea                W51_readSnTTL
+                0x00000000000045f2                W51_writeSnTX_FSR
+                0x0000000000004614                W51_readSnTX_FSR
+                0x0000000000004644                W51_getTXFreeSize
+                0x000000000000467c                W51_writeSnTX_RD
+                0x000000000000469e                W51_readSnTX_RD
+                0x00000000000046ce                W51_writeSnTX_WR
+                0x00000000000046f0                W51_readSnTX_WR
+                0x0000000000004720                W51_send_data_processing_offset
+                0x00000000000047b6                W51_send_data_processing
+                0x00000000000047c2                W51_writeSnRX_RSR
+                0x00000000000047e4                W51_readSnRX_RSR
+                0x0000000000004814                W51_getRXReceivedSize
+                0x000000000000484c                W51_writeSnRX_RD
+                0x000000000000486e                W51_readSnRX_RD
+                0x000000000000489e                W51_recv_data_processing_offset
+                0x0000000000004908                W51_recv_data_processing
+                0x0000000000004918                W51_writeSnRX_WR
+                0x000000000000493a                W51_readSnRX_WR
+ .text          0x000000000000496a       0x46 /home/nubian/final_project/lib_proj4.a(wdt.o)
+                0x000000000000496a                __vector_6
+                0x0000000000004988                wdt_init
+                0x00000000000049a0                wdt_reset
+                0x00000000000049a4                wdt_force_restart
+ .text          0x00000000000049b0      0x43c /home/nubian/final_project/lib_proj4.a(serial.o)
+                0x00000000000049b0                serial_init
+                0x00000000000049d6                __vector_18
+                0x0000000000004c26                __vector_19
+                0x0000000000004c8c                serial_rxchars
+                0x0000000000004c9a                serial_popchar
+                0x0000000000004ce4                serial_isconnected
+                0x0000000000004d32                serial_is_packet_ready
+                0x0000000000004d38                serial_writechar
+                0x0000000000004d98                serial_writestr
+                0x0000000000004dc2                serial_writestr_P
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000004dec        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000004dec                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x0000000000004dec      0x194 obj/Release/main.o
+                0x0000000000004dec                main
+ .text.libgcc.mul
+                0x0000000000004f80       0x20 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000004f80                __mulsi3
+ .text.libgcc.div
+                0x0000000000004fa0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc   0x0000000000004fa0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x0000000000004fa0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x0000000000004fa0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x0000000000004fa0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x0000000000004fa0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x0000000000004fa0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x0000000000004fa0       0x28 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000004fa0                __udivmodhi4
+ .text.libgcc   0x0000000000004fc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000004fc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000004fc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000004fc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000004fc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000004fc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000004fc8       0x28 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000004fc8                __divmodhi4
+                0x0000000000004fc8                _div
+ .text.libgcc   0x0000000000004ff0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000004ff0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000004ff0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000004ff0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000004ff0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000004ff0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000000000004ff0       0x44 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000004ff0                __udivmodsi4
+ .text.libgcc   0x0000000000005034        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000005034        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000005034        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000005034        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000005034        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000005034        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x0000000000005034       0x2e /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000005034                __divmodsi4
+ .text.libgcc   0x0000000000005062        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000005062        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000005062        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000005062        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000005062        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000005062        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000000000005062       0x10 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+                0x0000000000005062                __negsi2
+ .text.libgcc   0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000005072        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000005072        0xc /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000005072                __tablejump2__
+ .text.libgcc.prologue
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.div
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc   0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.prologue
+                0x000000000000507e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.builtins
+                0x000000000000507e        0xe /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+                0x000000000000507e                __bswapsi2
+ .text.libgcc.fmul
+                0x000000000000508c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.fixed
+                0x000000000000508c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.mul
+                0x000000000000508c       0x1e /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+                0x000000000000508c                __umulhisi3
+ .text.libgcc.div
+                0x00000000000050aa        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000000050aa        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000000050aa        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000000050aa        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000000050aa        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000000050aa        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00000000000050aa       0x16 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                0x00000000000050aa                __muluhisi3
+ .text.libgcc.div
+                0x00000000000050c0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000000050c0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000000050c0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000000050c0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000000050c0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000000050c0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                0x00000000000050c0                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000050c0        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                0x00000000000050c0                exit
+                0x00000000000050c0                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000050c0        0x4 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000050c4                _etext = .
+
+.data           0x0000000000800100      0x2ba load address 0x00000000000050c4
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ .data          0x0000000000800100        0x0 obj/Release/fuse.o
+ .data          0x0000000000800100        0x0 obj/Release/main.o
+ .data          0x0000000000800100        0x0 obj/Release/parser.o
+ .data          0x0000000000800100        0x0 /home/nubian/final_project/lib_proj4.a(alarm.o)
+ .data          0x0000000000800100       0x12 /home/nubian/final_project/lib_proj4.a(config.o)
+ .data          0x0000000000800112        0x0 /home/nubian/final_project/lib_proj4.a(delay.o)
+ .data          0x0000000000800112        0x0 /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+ .data          0x0000000000800112        0x0 /home/nubian/final_project/lib_proj4.a(eeprom.o)
+ .data          0x0000000000800112        0x0 /home/nubian/final_project/lib_proj4.a(led.o)
+ .data          0x0000000000800112        0x0 /home/nubian/final_project/lib_proj4.a(log.o)
+ .data          0x0000000000800112        0x0 /home/nubian/final_project/lib_proj4.a(ntp.o)
+ .data          0x0000000000800112       0x14 /home/nubian/final_project/lib_proj4.a(rtc.o)
+ .data          0x0000000000800126        0x0 /home/nubian/final_project/lib_proj4.a(socket.o)
+ .data          0x0000000000800126        0x0 /home/nubian/final_project/lib_proj4.a(spi.o)
+ .data          0x0000000000800126        0x0 /home/nubian/final_project/lib_proj4.a(str.o)
+ .data          0x0000000000800126        0x0 /home/nubian/final_project/lib_proj4.a(temp.o)
+ .data          0x0000000000800126        0x0 /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+ .data          0x0000000000800126        0x0 /home/nubian/final_project/lib_proj4.a(timer1.o)
+ .data          0x0000000000800126        0x0 /home/nubian/final_project/lib_proj4.a(uart.o)
+ .data          0x0000000000800126        0x8 /home/nubian/final_project/lib_proj4.a(util.o)
+ .data          0x000000000080012e        0x0 /home/nubian/final_project/lib_proj4.a(vpd.o)
+ .data          0x000000000080012e        0x0 /home/nubian/final_project/lib_proj4.a(w5100.o)
+ .data          0x000000000080012e        0x0 /home/nubian/final_project/lib_proj4.a(wdt.o)
+ .data          0x000000000080012e        0x0 /home/nubian/final_project/lib_proj4.a(serial.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x000000000080012e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x000000000080012e        0xc /home/nubian/final_project/lib_proj4.a(rtc.o)
+ .rodata        0x000000000080013a        0x6 /home/nubian/final_project/lib_proj4.a(socket.o)
+ .rodata        0x0000000000800140       0x37 /home/nubian/final_project/lib_proj4.a(vpd.o)
+ .rodata        0x0000000000800177       0x10 /home/nubian/final_project/lib_proj4.a(w5100.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800187       0x2b obj/Release/main.o
+ .rodata.str1.1
+                0x00000000008001b2      0x1cd obj/Release/parser.o
+                                        0x1dd (size before relaxing)
+ .rodata.str1.1
+                0x000000000080037f        0xa /home/nubian/final_project/lib_proj4.a(alarm.o)
+                                          0xf (size before relaxing)
+ .rodata.str1.1
+                0x0000000000800389        0x7 /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+ .rodata.str1.1
+                0x0000000000800390       0x13 /home/nubian/final_project/lib_proj4.a(ntp.o)
+ .rodata.str1.1
+                0x00000000008003a3       0x14 /home/nubian/final_project/lib_proj4.a(rtc.o)
+ .rodata.str1.1
+                0x00000000008003b7        0x2 /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                                          0x6 (size before relaxing)
+ .rodata.str1.1
+                0x00000000008003b9        0x3 /home/nubian/final_project/lib_proj4.a(uart.o)
+ *(.gnu.linkonce.d*)
+                0x00000000008003bc                . = ALIGN (0x2)
+ *fill*         0x00000000008003b9        0x1 
+                0x00000000008003ba                _edata = .
+                0x00000000008003ba                PROVIDE (__data_end, .)
+
+.bss            0x00000000008003ba      0x201
+                0x00000000008003ba                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00000000008003ba        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x00000000008003ba        0x0 obj/Release/fuse.o
+ .bss           0x00000000008003ba        0x0 obj/Release/main.o
+ .bss           0x00000000008003ba        0x5 obj/Release/parser.o
+ .bss           0x00000000008003bf        0x0 /home/nubian/final_project/lib_proj4.a(alarm.o)
+ .bss           0x00000000008003bf        0x1 /home/nubian/final_project/lib_proj4.a(config.o)
+ .bss           0x00000000008003c0        0xe /home/nubian/final_project/lib_proj4.a(delay.o)
+ .bss           0x00000000008003ce       0x43 /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+ .bss           0x0000000000800411        0x0 /home/nubian/final_project/lib_proj4.a(eeprom.o)
+ .bss           0x0000000000800411        0x5 /home/nubian/final_project/lib_proj4.a(led.o)
+ .bss           0x0000000000800416       0x83 /home/nubian/final_project/lib_proj4.a(log.o)
+ .bss           0x0000000000800499        0x0 /home/nubian/final_project/lib_proj4.a(ntp.o)
+ .bss           0x0000000000800499        0x0 /home/nubian/final_project/lib_proj4.a(rtc.o)
+ .bss           0x0000000000800499        0x2 /home/nubian/final_project/lib_proj4.a(socket.o)
+ .bss           0x000000000080049b        0x1 /home/nubian/final_project/lib_proj4.a(spi.o)
+ .bss           0x000000000080049c        0x0 /home/nubian/final_project/lib_proj4.a(str.o)
+ .bss           0x000000000080049c        0x0 /home/nubian/final_project/lib_proj4.a(temp.o)
+ .bss           0x000000000080049c        0x2 /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+ .bss           0x000000000080049e        0x4 /home/nubian/final_project/lib_proj4.a(timer1.o)
+ .bss           0x00000000008004a2        0x0 /home/nubian/final_project/lib_proj4.a(uart.o)
+ .bss           0x00000000008004a2        0x0 /home/nubian/final_project/lib_proj4.a(util.o)
+ .bss           0x00000000008004a2        0x0 /home/nubian/final_project/lib_proj4.a(vpd.o)
+ .bss           0x00000000008004a2        0x0 /home/nubian/final_project/lib_proj4.a(w5100.o)
+ .bss           0x00000000008004a2        0x0 /home/nubian/final_project/lib_proj4.a(wdt.o)
+ .bss           0x00000000008004a2        0x7 /home/nubian/final_project/lib_proj4.a(serial.o)
+                0x00000000008004a2                txtail
+                0x00000000008004a3                txhead
+                0x00000000008004a4                rxtail
+                0x00000000008004a5                rxhead
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x00000000008004a9        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00000000008004a9       0x12 /home/nubian/final_project/lib_proj4.a(config.o)
+                0x00000000008004a9                config
+ COMMON         0x00000000008004bb       0x45 /home/nubian/final_project/lib_proj4.a(eeprom.o)
+                0x00000000008004bb                write_busy
+                0x00000000008004bc                writeaddr
+                0x00000000008004be                writesize
+                0x00000000008004bf                writebuf
+                0x00000000008004ff                bufidx
+ COMMON         0x0000000000800500        0x4 /home/nubian/final_project/lib_proj4.a(rtc.o)
+                0x0000000000800500                rtc_base
+ COMMON         0x0000000000800504       0x37 /home/nubian/final_project/lib_proj4.a(vpd.o)
+                0x0000000000800504                vpd
+ COMMON         0x000000000080053b       0x80 /home/nubian/final_project/lib_proj4.a(serial.o)
+                0x000000000080053b                rxbuf
+                0x000000000080057b                txbuf
+                0x00000000008005bb                PROVIDE (__bss_end, .)
+                0x00000000000050c4                __data_load_start = LOADADDR (.data)
+                0x000000000000537e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008005bb        0x0
+                0x00000000008005bb                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00000000008005bb                PROVIDE (__noinit_end, .)
+                0x00000000008005bb                _end = .
+                0x00000000008005bb                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse           0x0000000000820000        0x3
+ *(.fuse)
+ .fuse          0x0000000000820000        0x3 obj/Release/fuse.o
+                0x0000000000820000                __fuse
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 obj/Release/fuse.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 obj/Release/main.o
+ .comment       0x0000000000000011       0x12 obj/Release/parser.o
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(alarm.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(config.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(delay.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(eeprom.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(led.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(log.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(ntp.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(rtc.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(socket.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(spi.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(str.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(temp.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(timer1.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(uart.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(util.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(vpd.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(w5100.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(wdt.o)
+ .comment       0x0000000000000011       0x12 /home/nubian/final_project/lib_proj4.a(serial.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(bin/Release/final_project.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+W51_config                                        /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  obj/Release/main.o
+W51_execCmdSn                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_getRXReceivedSize                             /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_getTXFreeSize                                 /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_init                                          /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  obj/Release/main.o
+W51_read                                          /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readIMR                                       /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readIR                                        /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readMR                                        /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readPATR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readPMAGIC                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readPTIMER                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readRCR                                       /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readRMSR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readRTR                                       /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSn                                        /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnCR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnDHAR                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnDIPR                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnDPORT                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnIR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_readSnMR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_readSnMSSR                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnPORT                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnPROTO                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnRX_RD                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_readSnRX_RSR                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnRX_WR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnSR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_readSnTOS                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnTTL                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnTX_FSR                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnTX_RD                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readSnTX_WR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readTMSR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readUPORT                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_read_data                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_readbuf                                       /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readbufGAR                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readbufSHAR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readbufSIPR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readbufSUBR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readbufSn                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_readbufUIPR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_recv_data_processing                          /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_recv_data_processing_offset                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_send_data_processing                          /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_send_data_processing_offset                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_write                                         /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeIMR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeIR                                       /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeMR                                       /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writePATR                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writePMAGIC                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writePTIMER                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeRCR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeRMSR                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeRTR                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSn                                       /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnCR                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnDHAR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_writeSnDIPR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_writeSnDPORT                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_writeSnIR                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_writeSnMR                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_writeSnMSSR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnPORT                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_writeSnPROTO                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnRX_RD                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+W51_writeSnRX_RSR                                 /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnRX_WR                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnSR                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnTOS                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnTTL                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnTX_FSR                                 /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnTX_RD                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeSnTX_WR                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeTMSR                                     /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writeUPORT                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writebuf                                      /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writebufGAR                                   /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writebufSHAR                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writebufSIPR                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writebufSUBR                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writebufSn                                    /home/nubian/final_project/lib_proj4.a(w5100.o)
+W51_writebufUIPR                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+_ZN9DhcpClass10checkLeaseEv                       /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass10getLocalIpEv                       /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass12getGatewayIpEv                     /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass12presend_DHCPEv                     /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass13beginWithDHCPEPhmm                 /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass13getSubnetMaskEv                    /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass14getDnsServerIpEv                   /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass15getDhcpServerIpEv                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass16reset_DHCP_leaseEv                 /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass17parseDHCPResponseEmRm              /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass17send_DHCP_MESSAGEEhj               /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass18request_DHCP_leaseEv               /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+_ZN9DhcpClass9printByteEPch                       /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+__bswapsi2                                        /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_bswapsi2.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+__data_end                                        /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__divmodhi4                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+                                                  /home/nubian/final_project/lib_proj4.a(log.o)
+__divmodsi4                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+                                                  /home/nubian/final_project/lib_proj4.a(temp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                                                  /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /home/nubian/final_project/lib_proj4.a(vpd.o)
+                                                  /home/nubian/final_project/lib_proj4.a(timer1.o)
+                                                  /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                                                  /home/nubian/final_project/lib_proj4.a(spi.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  /home/nubian/final_project/lib_proj4.a(led.o)
+                                                  /home/nubian/final_project/lib_proj4.a(eeprom.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(delay.o)
+                                                  /home/nubian/final_project/lib_proj4.a(config.o)
+                                                  obj/Release/parser.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(vpd.o)
+                                                  /home/nubian/final_project/lib_proj4.a(util.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+                                                  /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(config.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+                                                  obj/Release/parser.o
+                                                  obj/Release/main.o
+__fuse                                            obj/Release/fuse.o
+__heap_end                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__mulsi3                                          /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+__muluhisi3                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulsi3.o)
+                                                  /home/nubian/final_project/lib_proj4.a(util.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+                                                  /home/nubian/final_project/lib_proj4.a(temp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+__negsi2                                          /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+__stack                                           /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__tablejump2__                                    /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                                                  /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+__udivmodhi4                                      /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+                                                  /home/nubian/final_project/lib_proj4.a(str.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+                                                  /home/nubian/final_project/lib_proj4.a(util.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+__umulhisi3                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+__vector_1                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /home/nubian/final_project/lib_proj4.a(timer1.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /home/nubian/final_project/lib_proj4.a(delay.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /home/nubian/final_project/lib_proj4.a(eeprom.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /home/nubian/final_project/lib_proj4.a(wdt.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+_div                                              /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+_exit                                             /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+alarm_init                                        /home/nubian/final_project/lib_proj4.a(alarm.o)
+alarm_send                                        /home/nubian/final_project/lib_proj4.a(alarm.o)
+                                                  /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                                                  obj/Release/main.o
+bufidx                                            /home/nubian/final_project/lib_proj4.a(eeprom.o)
+config                                            /home/nubian/final_project/lib_proj4.a(config.o)
+                                                  obj/Release/parser.o
+                                                  obj/Release/main.o
+config_init                                       /home/nubian/final_project/lib_proj4.a(config.o)
+                                                  obj/Release/main.o
+config_is_data_valid                              /home/nubian/final_project/lib_proj4.a(config.o)
+config_set_modified                               /home/nubian/final_project/lib_proj4.a(config.o)
+                                                  obj/Release/parser.o
+config_update                                     /home/nubian/final_project/lib_proj4.a(config.o)
+config_update_noisr                               /home/nubian/final_project/lib_proj4.a(config.o)
+                                                  /home/nubian/final_project/lib_proj4.a(wdt.o)
+                                                  obj/Release/main.o
+config_write_defaults                             /home/nubian/final_project/lib_proj4.a(config.o)
+delay_get                                         /home/nubian/final_project/lib_proj4.a(delay.o)
+delay_init                                        /home/nubian/final_project/lib_proj4.a(delay.o)
+delay_isdone                                      /home/nubian/final_project/lib_proj4.a(delay.o)
+                                                  /home/nubian/final_project/lib_proj4.a(led.o)
+                                                  obj/Release/main.o
+delay_set                                         /home/nubian/final_project/lib_proj4.a(delay.o)
+                                                  /home/nubian/final_project/lib_proj4.a(led.o)
+                                                  obj/Release/main.o
+dhcp_checkLease                                   /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+dhcp_getDhcpServerIp                              /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+dhcp_getDnsServerIp                               /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+dhcp_getGatewayIp                                 /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  obj/Release/main.o
+dhcp_getLocalIp                                   /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  obj/Release/main.o
+dhcp_getSubnetMask                                /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  obj/Release/main.o
+dhcp_start                                        /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  obj/Release/main.o
+eeprom_isbusy                                     /home/nubian/final_project/lib_proj4.a(eeprom.o)
+                                                  /home/nubian/final_project/lib_proj4.a(vpd.o)
+                                                  /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  /home/nubian/final_project/lib_proj4.a(config.o)
+eeprom_readbuf                                    /home/nubian/final_project/lib_proj4.a(eeprom.o)
+                                                  /home/nubian/final_project/lib_proj4.a(vpd.o)
+                                                  /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  /home/nubian/final_project/lib_proj4.a(config.o)
+eeprom_writebuf                                   /home/nubian/final_project/lib_proj4.a(eeprom.o)
+                                                  /home/nubian/final_project/lib_proj4.a(vpd.o)
+                                                  /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  /home/nubian/final_project/lib_proj4.a(config.o)
+eeprom_writebuf_noisr                             /home/nubian/final_project/lib_proj4.a(eeprom.o)
+                                                  /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  /home/nubian/final_project/lib_proj4.a(config.o)
+exit                                              /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+get_month                                         /home/nubian/final_project/lib_proj4.a(rtc.o)
+is_leapyear                                       /home/nubian/final_project/lib_proj4.a(rtc.o)
+led_init                                          /home/nubian/final_project/lib_proj4.a(led.o)
+                                                  obj/Release/main.o
+led_is_on                                         /home/nubian/final_project/lib_proj4.a(led.o)
+led_off                                           /home/nubian/final_project/lib_proj4.a(led.o)
+led_on                                            /home/nubian/final_project/lib_proj4.a(led.o)
+                                                  /home/nubian/final_project/lib_proj4.a(wdt.o)
+led_set_blink                                     /home/nubian/final_project/lib_proj4.a(led.o)
+                                                  /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+led_update                                        /home/nubian/final_project/lib_proj4.a(led.o)
+log_add_record                                    /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  /home/nubian/final_project/lib_proj4.a(wdt.o)
+                                                  /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                                                  obj/Release/main.o
+log_clear                                         /home/nubian/final_project/lib_proj4.a(log.o)
+log_get_num_entries                               /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  obj/Release/parser.o
+log_get_record                                    /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  obj/Release/parser.o
+log_init                                          /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  obj/Release/main.o
+log_is_data_valid                                 /home/nubian/final_project/lib_proj4.a(log.o)
+log_update                                        /home/nubian/final_project/lib_proj4.a(log.o)
+log_update_noisr                                  /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  /home/nubian/final_project/lib_proj4.a(wdt.o)
+                                                  obj/Release/main.o
+main                                              obj/Release/main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+mem_cmp                                           /home/nubian/final_project/lib_proj4.a(str.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+mem_cpy                                           /home/nubian/final_project/lib_proj4.a(str.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+mem_set                                           /home/nubian/final_project/lib_proj4.a(str.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+millis                                            /home/nubian/final_project/lib_proj4.a(delay.o)
+                                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+ntp_sync_network_time                             /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  obj/Release/main.o
+parser_config                                     obj/Release/parser.o
+parser_config_tcrit_hi                            obj/Release/parser.o
+parser_config_tcrit_lo                            obj/Release/parser.o
+parser_config_twarn_hi                            obj/Release/parser.o
+parser_config_twarn_lo                            obj/Release/parser.o
+parser_html_header                                obj/Release/parser.o
+parser_log                                        obj/Release/parser.o
+parser_parse                                      obj/Release/parser.o
+                                                  obj/Release/main.o
+parser_print_OK                                   obj/Release/parser.o
+parser_print_nbsp                                 obj/Release/parser.o
+parser_response                                   obj/Release/parser.o
+                                                  obj/Release/main.o
+parser_state                                      obj/Release/parser.o
+parser_state_PUT                                  obj/Release/parser.o
+parser_temp                                       obj/Release/parser.o
+parser_temp_state                                 obj/Release/parser.o
+parser_temp_val                                   obj/Release/parser.o
+parser_vpd                                        obj/Release/parser.o
+parser_vpd_cc                                     obj/Release/parser.o
+parser_vpd_mac                                    obj/Release/parser.o
+parser_vpd_manufacture_date                       obj/Release/parser.o
+parser_vpd_manufacturer                           obj/Release/parser.o
+parser_vpd_model                                  obj/Release/parser.o
+parser_vpd_serial                                 obj/Release/parser.o
+random                                            /home/nubian/final_project/lib_proj4.a(util.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+random_seed                                       /home/nubian/final_project/lib_proj4.a(util.o)
+rtc_base                                          /home/nubian/final_project/lib_proj4.a(rtc.o)
+rtc_get_date                                      /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  /home/nubian/final_project/lib_proj4.a(log.o)
+rtc_get_date_string                               /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+rtc_init                                          /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  obj/Release/main.o
+rtc_num2datestr                                   /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  obj/Release/parser.o
+rtc_set_by_datestr                                /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+rtc_set_date                                      /home/nubian/final_project/lib_proj4.a(rtc.o)
+rxbuf                                             /home/nubian/final_project/lib_proj4.a(serial.o)
+rxhead                                            /home/nubian/final_project/lib_proj4.a(serial.o)
+rxtail                                            /home/nubian/final_project/lib_proj4.a(serial.o)
+serial_init                                       /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+serial_is_packet_ready                            /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+serial_isconnected                                /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+serial_popchar                                    /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+serial_rxchars                                    /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+serial_writechar                                  /home/nubian/final_project/lib_proj4.a(serial.o)
+                                                  /home/nubian/final_project/lib_proj4.a(uart.o)
+serial_writestr                                   /home/nubian/final_project/lib_proj4.a(serial.o)
+serial_writestr_P                                 /home/nubian/final_project/lib_proj4.a(serial.o)
+socket_close                                      /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_connect                                    /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_disconnect                                 /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/main.o
+socket_flush_line                                 /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_igmpsend                                   /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_is_active                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_is_blank_line                              /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_is_closed                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/main.o
+socket_is_established                             /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_is_listening                               /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_listen                                     /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/main.o
+socket_open                                       /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/main.o
+socket_peek                                       /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_received_line                              /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+socket_recv                                       /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+socket_recv_available                             /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+                                                  obj/Release/main.o
+socket_recv_compare                               /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+socket_recv_int                                   /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+socket_send                                       /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_write_macaddress                           /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_writechar                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+socket_writedate                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_writedec32                                 /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+socket_writehex16                                 /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_writehex8                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+socket_writequotedstring                          /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+socket_writestr                                   /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  obj/Release/parser.o
+spi_begin_transfer                                /home/nubian/final_project/lib_proj4.a(spi.o)
+                                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+spi_end_transfer                                  /home/nubian/final_project/lib_proj4.a(spi.o)
+                                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+spi_init                                          /home/nubian/final_project/lib_proj4.a(spi.o)
+                                                  obj/Release/main.o
+spi_is_locked                                     /home/nubian/final_project/lib_proj4.a(spi.o)
+spi_transfer                                      /home/nubian/final_project/lib_proj4.a(spi.o)
+                                                  /home/nubian/final_project/lib_proj4.a(w5100.o)
+str_cmp                                           /home/nubian/final_project/lib_proj4.a(util.o)
+str_cpy                                           /home/nubian/final_project/lib_proj4.a(str.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+str_len                                           /home/nubian/final_project/lib_proj4.a(str.o)
+                                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+str_writeudec16                                   /home/nubian/final_project/lib_proj4.a(str.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+strtoi                                            /home/nubian/final_project/lib_proj4.a(util.o)
+temp_get                                          /home/nubian/final_project/lib_proj4.a(temp.o)
+                                                  obj/Release/parser.o
+                                                  obj/Release/main.o
+temp_init                                         /home/nubian/final_project/lib_proj4.a(temp.o)
+                                                  obj/Release/main.o
+temp_is_data_ready                                /home/nubian/final_project/lib_proj4.a(temp.o)
+temp_start                                        /home/nubian/final_project/lib_proj4.a(temp.o)
+                                                  obj/Release/main.o
+tempfsm_init                                      /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                                                  obj/Release/main.o
+tempfsm_reset                                     /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+tempfsm_update                                    /home/nubian/final_project/lib_proj4.a(tempfsm.o)
+                                                  obj/Release/main.o
+timer1_clear                                      /home/nubian/final_project/lib_proj4.a(timer1.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+timer1_get                                        /home/nubian/final_project/lib_proj4.a(timer1.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+timer1_init                                       /home/nubian/final_project/lib_proj4.a(timer1.o)
+                                                  /home/nubian/final_project/lib_proj4.a(rtc.o)
+txbuf                                             /home/nubian/final_project/lib_proj4.a(serial.o)
+txhead                                            /home/nubian/final_project/lib_proj4.a(serial.o)
+txtail                                            /home/nubian/final_project/lib_proj4.a(serial.o)
+uart_init                                         /home/nubian/final_project/lib_proj4.a(uart.o)
+                                                  obj/Release/main.o
+uart_is_connected                                 /home/nubian/final_project/lib_proj4.a(uart.o)
+uart_is_packet_available                          /home/nubian/final_project/lib_proj4.a(uart.o)
+uart_readpacket                                   /home/nubian/final_project/lib_proj4.a(uart.o)
+uart_writechar                                    /home/nubian/final_project/lib_proj4.a(uart.o)
+                                                  obj/Release/parser.o
+uart_writedec32                                   /home/nubian/final_project/lib_proj4.a(uart.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+                                                  obj/Release/parser.o
+uart_writehex16                                   /home/nubian/final_project/lib_proj4.a(uart.o)
+uart_writehex8                                    /home/nubian/final_project/lib_proj4.a(uart.o)
+uart_writeip                                      /home/nubian/final_project/lib_proj4.a(uart.o)
+                                                  obj/Release/main.o
+uart_writestr                                     /home/nubian/final_project/lib_proj4.a(uart.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+                                                  obj/Release/parser.o
+                                                  obj/Release/main.o
+udpsocket_add_to_datagram                         /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+udpsocket_close                                   /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+udpsocket_is_closed                               /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+udpsocket_is_open                                 /home/nubian/final_project/lib_proj4.a(socket.o)
+udpsocket_open                                    /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+udpsocket_open_multicast                          /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+udpsocket_recv_available                          /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+udpsocket_recv_data                               /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+udpsocket_recvfrom                                /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+udpsocket_send_datagram                           /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+udpsocket_sendto                                  /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(ntp.o)
+udpsocket_start_datagram                          /home/nubian/final_project/lib_proj4.a(socket.o)
+                                                  /home/nubian/final_project/lib_proj4.a(Dhcp.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+update_checksum                                   /home/nubian/final_project/lib_proj4.a(util.o)
+                                                  /home/nubian/final_project/lib_proj4.a(vpd.o)
+                                                  /home/nubian/final_project/lib_proj4.a(log.o)
+                                                  /home/nubian/final_project/lib_proj4.a(config.o)
+vpd                                               /home/nubian/final_project/lib_proj4.a(vpd.o)
+                                                  /home/nubian/final_project/lib_proj4.a(alarm.o)
+                                                  obj/Release/parser.o
+                                                  obj/Release/main.o
+vpd_init                                          /home/nubian/final_project/lib_proj4.a(vpd.o)
+                                                  obj/Release/main.o
+vpd_is_data_valid                                 /home/nubian/final_project/lib_proj4.a(vpd.o)
+vpd_write_defaults                                /home/nubian/final_project/lib_proj4.a(vpd.o)
+wdt_force_restart                                 /home/nubian/final_project/lib_proj4.a(wdt.o)
+wdt_init                                          /home/nubian/final_project/lib_proj4.a(wdt.o)
+                                                  obj/Release/main.o
+wdt_reset                                         /home/nubian/final_project/lib_proj4.a(wdt.o)
+                                                  obj/Release/main.o
+write_busy                                        /home/nubian/final_project/lib_proj4.a(eeprom.o)
+writeaddr                                         /home/nubian/final_project/lib_proj4.a(eeprom.o)
+writebuf                                          /home/nubian/final_project/lib_proj4.a(eeprom.o)
+writesize                                         /home/nubian/final_project/lib_proj4.a(eeprom.o)

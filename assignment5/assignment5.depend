@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1519061591 source:/home/nubian/assignment5/fuse.c
+	<avr/io.h>
+
+1519093618 source:/home/nubian/assignment5/main.c
+	"uart.h"
+	"delay.h"
+	"led.h"
+	"temp.h"
+
+1519061619 /home/nubian/assignment5/uart.h
+
+1519061604 /home/nubian/assignment5/delay.h
+
+1519063375 /home/nubian/assignment5/led.h
+
+1519065717 /home/nubian/assignment5/temp.h
+
+1519093314 source:/home/nubian/assignment5/temp.c
+	"temp.h"
+

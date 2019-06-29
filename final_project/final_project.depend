@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1524754666 source:/home/nubian/final_project/fuse.c
+	<avr/io.h>
+
+1525381679 source:/home/nubian/final_project/main.c
+	"config.h"
+	"delay.h"
+	"dhcp.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"spi.h"
+	"uart.h"
+	"vpd.h"
+	"temp.h"
+	"socket.h"
+	"alarm.h"
+	"wdt.h"
+	"tempfsm.h"
+	"eeprom.h"
+	"ntp.h"
+	"w51.h"
+	"parser.h"
+
+1524754301 /home/nubian/final_project/config.h
+
+1524754306 /home/nubian/final_project/delay.h
+
+1524754356 /home/nubian/final_project/dhcp.h
+
+1524754365 /home/nubian/final_project/led.h
+
+1524754369 /home/nubian/final_project/log.h
+
+1524754383 /home/nubian/final_project/rtc.h
+
+1524754392 /home/nubian/final_project/spi.h
+
+1524754408 /home/nubian/final_project/uart.h
+
+1524754418 /home/nubian/final_project/vpd.h
+
+1524754396 /home/nubian/final_project/temp.h
+
+1524754387 /home/nubian/final_project/socket.h
+
+1524754296 /home/nubian/final_project/alarm.h
+
+1524754427 /home/nubian/final_project/wdt.h
+
+1524754399 /home/nubian/final_project/tempfsm.h
+
+1524754360 /home/nubian/final_project/eeprom.h
+
+1524754378 /home/nubian/final_project/ntp.h
+
+1524754423 /home/nubian/final_project/w51.h
+
+1525381465 source:/home/nubian/final_project/parser.c
+	"socket.h"
+	"config.h"
+	"vpd.h"
+	"uart.h"
+	"parser.h"
+	"rtc.h"
+	"temp.h"
+	"tempfsm.h"
+	"log.h"
+	"util.h"
+
+1525197632 /home/nubian/final_project/parser.h
+
+1524754412 /home/nubian/final_project/util.h
+

@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1522697712 source:/home/nubian/project2/fuse.c
+	<avr/io.h>
+
+1523036238 source:/home/nubian/project2/main.c
+	"config.h"
+	"delay.h"
+	"eeprom.h"
+	"led.h"
+	"log.h"
+	"uart.h"
+	"rtc.h"
+	"util.h"
+	"vpd.h"
+
+1522698263 /home/nubian/project2/led.h
+
+1522698275 /home/nubian/project2/uart.h
+
+1522698272 /home/nubian/project2/rtc.h
+
+1522698237 /home/nubian/project2/delay.h
+
+1522948353 /home/nubian/project2/util.h
+
+1523037239 source:/home/nubian/project2/eeprom.c
+	"eeprom.h"
+	"uart.h"
+	"led.h"
+
+1523029689 source:/home/nubian/project2/vpd.c
+	"util.h"
+	"eeprom.h"
+	"vpd.h"
+	"uart.h"
+
+1522801255 /home/nubian/project2/eeprom.h
+
+1522892948 /home/nubian/project2/vpd.h
+
+1523034107 source:/home/nubian/project2/config.c
+	"eeprom.h"
+	"util.h"
+	"config.h"
+
+1522892961 /home/nubian/project2/config.h
+
+1523036608 source:/home/nubian/project2/util.c
+	"util.h"
+
+1522698268 /home/nubian/project2/log.h
+

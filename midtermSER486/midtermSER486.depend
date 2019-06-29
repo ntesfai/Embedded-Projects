@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1519583561 source:/home/nubian/midtermSER486/fuse.c
+	<avr/io.h>
+
+1519591595 source:/home/nubian/midtermSER486/main.c
+	"uart.h"
+
+1519061619 /home/nubian/midtermSER486/uart.h
+

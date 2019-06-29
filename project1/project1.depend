@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1520693213 source:/home/nubian/project1/fuse.c
+	<avr/io.h>
+
+1521506556 source:/home/nubian/project1/main.c
+	"uart.h"
+	"led.h"
+	"rtc.h"
+	"timer1.h"
+	"delay.h"
+
+1520693230 /home/nubian/project1/delay.h
+
+1520693245 /home/nubian/project1/timer1.h
+
+1520693240 /home/nubian/project1/rtc.h
+
+1520693250 /home/nubian/project1/uart.h
+
+1520693236 /home/nubian/project1/led.h
+
+1521315604 source:/home/nubian/project1/delay.c
+
+1521506698 source:/home/nubian/project1/led.c
+	"delay.h"
+	"led.h"
+
+1521507017 source:/home/nubian/project1/timer1.c
+

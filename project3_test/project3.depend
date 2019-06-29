@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1523311850 source:/home/nubian/project3/fuse.c
+	<avr/io.h>
+
+1524087865 source:/home/nubian/project3/main.c
+	"alarm.h"
+	"config.h"
+	"delay.h"
+	"eeprom.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"temp.h"
+	"tempfsm.h"
+	"uart.h"
+	"util.h"
+	"vpd.h"
+	"wdt.h"
+
+1523312155 /home/nubian/project3/alarm.h
+
+1523312161 /home/nubian/project3/config.h
+
+1523312165 /home/nubian/project3/delay.h
+
+1523312168 /home/nubian/project3/eeprom.h
+
+1523312173 /home/nubian/project3/led.h
+
+1523312177 /home/nubian/project3/log.h
+
+1523312185 /home/nubian/project3/rtc.h
+
+1523312189 /home/nubian/project3/temp.h
+
+1523681794 /home/nubian/project3/tempfsm.h
+
+1523312197 /home/nubian/project3/uart.h
+
+1523312201 /home/nubian/project3/util.h
+
+1523312205 /home/nubian/project3/vpd.h
+
+1523312210 /home/nubian/project3/wdt.h
+
+1524087308 source:/home/nubian/project3/tempfsm.c
+	"led.h"
+	"alarm.h"
+	"log.h"
+	"tempfsm.h"
+
+1524085931 source:/home/nubian/project3/wdt.c
+	"wdt.h"
+	"led.h"
+	"log.h"
+	"config.h"
+
+1523979744 source:/home/nubian/project3/util.c
+	"util.h"
+

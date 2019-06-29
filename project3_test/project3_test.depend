@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1524088436 source:/home/nubian/project3_test/fuse.c
+	<avr/io.h>
+
+1524275963 source:/home/nubian/project3_test/tempfsm.c
+	"led.h"
+	"alarm.h"
+	"log.h"
+	"tempfsm.h"
+
+1523312173 /home/nubian/project3_test/led.h
+
+1523312155 /home/nubian/project3_test/alarm.h
+
+1523312177 /home/nubian/project3_test/log.h
+
+1523681794 /home/nubian/project3_test/tempfsm.h
+
+1524272371 source:/home/nubian/project3_test/util.c
+	"util.h"
+	"config.h"
+
+1523312201 /home/nubian/project3_test/util.h
+
+1524275644 source:/home/nubian/project3_test/wdt.c
+	"wdt.h"
+	"led.h"
+	"log.h"
+	"config.h"
+
+1523312210 /home/nubian/project3_test/wdt.h
+
+1523312161 /home/nubian/project3_test/config.h
+
+1524170896 source:/home/nubian/project3_test/main.c
+	"alarm.h"
+	"config.h"
+	"delay.h"
+	"eeprom.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"temp.h"
+	"tempfsm.h"
+	"uart.h"
+	"util.h"
+	"vpd.h"
+	"wdt.h"
+
+1523312165 /home/nubian/project3_test/delay.h
+
+1523312168 /home/nubian/project3_test/eeprom.h
+
+1523312185 /home/nubian/project3_test/rtc.h
+
+1523312189 /home/nubian/project3_test/temp.h
+
+1523312197 /home/nubian/project3_test/uart.h
+
+1523312205 /home/nubian/project3_test/vpd.h
+

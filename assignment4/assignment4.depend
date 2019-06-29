@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1518482157 source:/home/nubian/assignment4/fuse.c
+	<avr/io.h>
+
+1519087152 source:/home/nubian/assignment4/main.c
+	"output.h"
+	"hw4lib.h"
+
+1518654947 source:/home/nubian/assignment4/output.c
+	"hw4lib.h"
+
+1518481748 /home/nubian/assignment4/hw4lib.h
+
+1518481742 /home/nubian/assignment4/output.h
+

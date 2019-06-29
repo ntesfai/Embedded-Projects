@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518044488 source:/home/nubian/assignment3/fuse.c
+	<avr/io.h>
+
+1518116577 source:/home/nubian/assignment3/main.c
+
